@@ -7,3 +7,22 @@ Stock Prices Prediction Using Deep Learning Techniques
 文內結果顯示Prophet儘管在預測速度上高於LSTM、LSTM-GRU、Stateful LSTM，但由於簡化了許多類神經的流程，也新增了諸多限制，對於數據分割上其為重要導致在RMSE數值較高，但在預測速度上卻遠遠高於LSTM、LSTM-GRU以及該技術提供諸多預測方式降低深入學習的門檻，本研究指出若需要在短時間內獲得預測資訊以及圖形顯示在不增加現有設備成本下該技術確實在執行時間上優於其於兩者。
 關鍵字: LSTM、LSTM-GRU、Prophet、RMSE、深入學習
 
+
+電腦設配簡介:
+CPU:intel E3-1225v6 @ 3.3GHZ
+GPU:NVIDIA Quadro P600
+RAM:16G
+測試設備軟體簡介:
+軟體簡介:
+Visual studio 2019
+keras 2.2.4
+python 3.6.8
+Anaconda 2019.03
+quandl 3.4.5
+matplotlib 3.0.3
+tensorflow 1.13.1
+numpy 1.16.3
+pystan 2.18
+pandas 0.24.2
+pytrends 4.4.0
+fbprophet 0.4.post2

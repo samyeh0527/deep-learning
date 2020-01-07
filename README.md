@@ -26,3 +26,7 @@ pystan 2.18
 pandas 0.24.2
 pytrends 4.4.0
 fbprophet 0.4.post2
+
+
+1.step  download finance.yahoo.com 所提供之歷史數據，並將數據做前處理，留下日期與[adjprice]調整後價格，
+2.creat dataset 並將資料分文67%訓練 33%測試用

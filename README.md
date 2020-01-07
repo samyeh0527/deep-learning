@@ -29,10 +29,14 @@ fbprophet 0.4.post2
 
 -------------------------
 
-1step   download finance.yahoo.com 所提供之歷史數據，並將數據做前處理，留下日期與[adjprice]調整後價格，
+1step   download finance.yahoo.com 所提供之歷史數據，並將數據做前處理，留下日期與[adjprice]調整後價格
+
 2step   選擇需要使用的模組DeepLSTM、DeepGRU、MixGru、Porphet
+
 3step   若選擇DeepLSTM、DeepGRU、MixGru 可以將內的模組進行替換或者是參數調整
         若只是進行精準度調整與epoch、unit數量、batch_size 皆可做調整。
-4step   根據結果進行訓練次數(epoch)以及模型數量順序調整，太多造成過度訓練，太少則發生缺乏訓練其現象以statefulLSTM為明顯
-5step   根據上述測試執行時間最短順序為Prophet<DGRU<MixGRU<LSTM<statefulLSTM
+        
+4step   根據結果進行訓練次數(epoch)以及模型數量順序調整，太多造成過度訓練，太少則發生缺乏訓練其現象以statefulLSTM為明顯。
+
+5step   根據上述測試執行時間最短順序為Prophet<DGRU<MixGRU<LSTM<statefulLSTM 。
 

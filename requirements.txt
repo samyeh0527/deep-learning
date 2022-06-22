@@ -31,7 +31,7 @@ mkl-fft==1.0.12
 mkl-random==1.0.2
 mock==2.0.0
 more-itertools==7.0.0
-numpy==1.16.3
+numpy==1.22.0
 pandas==0.24.2
 pandas-datareader==0.7.0
 patsy==0.5.1

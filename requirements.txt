@@ -3,7 +3,7 @@ arch==4.10.0
 asn1crypto==0.24.0
 astor==0.7.1
 beautifulsoup4==4.7.1
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 convertdate==2.1.3
